@@ -3,6 +3,7 @@ CFSTsteel model is an uniaxial material model which can be used to simulate the 
 
 uniaxialMaterial CFSTsteel $mat_Tag $E0 $fy $b2 $sigma_cm $a $sigma_rm $b3 $Lamda_t $Lamda_cp $Lamda_a $Lamda_yp $Lamda_r $c_t $c_cp $c_a $c_yp $c_r $Qinf $b $N $C $gamma
 
+```
 $mat_Tag, integer, Integer tag identifying material
 $E0, float, Young's modulus
 $fy, float, Initial yield stress
@@ -26,6 +27,7 @@ $b, float, Saturation rate of isotropic hardening
 $N, integer, Number of backstresses
 $C, float, Kinematic hardening parameter associated with backstress
 $gamma, float, Saturation rate of kinematic hardening associated with backstress
+```
 
 Please use Reference [1] when citing the CFSTsteel uniaxial material model.
 [1] Wang S, Wang W, Lignos D G. Uniaxial material model with softening for simulating the cyclic behavior of steel tubes in concrete‐filled steel tube beam‐columns[J]. Earthquake Engineering & Structural Dynamics, 2024, 53(13): 4032-4053.
